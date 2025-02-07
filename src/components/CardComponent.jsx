@@ -14,12 +14,12 @@ const CardComponent = ({ contacts }) => {
           />
           <p className="text-center text-white mb-3">{product.productdesc}</p>
           <div className="flex space-x-10 p-7">
-            {/* <button className="rounded-2xl w-32 h-18 bg-green-600 text-center text-white text-2xl">
+            <button className="rounded-2xl w-32 h-18 bg-green-600 text-center text-white text-2xl">
               Add
-            </button> */}
-            {/* <button className="rounded-2xl w-[140px] h-18 bg-red-600 text-center text-white text-2xl">
+            </button>
+            <button className="rounded-2xl w-[140px] h-18 bg-red-600 text-center text-white text-2xl">
               Remove
-            </button> */}
+            </button>
           </div>
         </div>
       ))}
