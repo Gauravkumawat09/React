@@ -17,9 +17,9 @@ const CardComponent = ({ contacts }) => {
             <button className="rounded-2xl w-32 h-18 bg-green-600 text-center text-white text-2xl">
               Add
             </button>
-            <button className="rounded-2xl w-[140px] h-18 bg-red-600 text-center text-white text-2xl">
+            {/* <button className="rounded-2xl w-[140px] h-18 bg-red-600 text-center text-white text-2xl">
               Remove
-            </button>
+            </button> */}
           </div>
         </div>
       ))}
